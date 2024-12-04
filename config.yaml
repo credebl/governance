@@ -1,0 +1,11 @@
+teams:
+  - name: lf-staff
+    maintainers:
+      - ryjones
+    members:
+      - thelinuxfoundation
+repositories:
+  - name: governance
+    teams:
+      lf-staff: maintain
+    visibility: public
