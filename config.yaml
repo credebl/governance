@@ -4,8 +4,200 @@ teams:
       - ryjones
     members:
       - thelinuxfoundation
+  - name: admins
+    maintainers:
+      - DeepakNemad
+      - Sheetal-ayanworks
+      - ajile-in
+      - amitpadmani-awts
+      - kkkulkarni
+    members:
+      - ankita-p17
+  - name: adeya-sdk-committers
+    maintainers:
+      - tusharbhayani
+  - name: adeya-sdk-maintainers
+    maintainers:
+      - sairanjit
+  - name: aries-admin
+    maintainers:
+      - sairanjit
+  - name: dev-team
+    maintainers:
+      - Sheetal-ayanworks
+      - ajile-in
+      - amitpadmani-awts
+      - kkkulkarni
+      - prasadgkalamkar
+    members:
+      - GHkrishna
+      - RinkalBhojani
+      - ankita-p17
+      - bhavanakarwade
+      - ganeshawle25
+      - niikiitap20
+      - pallavighule
+      - pranalidhanavade
+      - sairanjit
+      - shitrerohit
+      - tipusinghaw
+      - tusharbhayani
+  - name: devops-team
+    maintainers:
+      - DeepakNemad
+      - Sheetal-ayanworks
+    members:
+      - KambleSahil3
+  - name: github-committers
+    maintainers:
+      - niikiitap20
+  - name: mobile-wallet-team
+    maintainers:
+      - ajile-in
+      - amitpadmani-awts
+    members:
+      - ankita-p17
+  - name: qa-team
+    maintainers:
+      - ashwini-aher
+    members:
+      - sayali-chavan2396
+  - name: security-managers
+    maintainers:
+      - DeepakNemad
+      - Sheetal-ayanworks
+      - ajile-in
+      - kkkulkarni
+    members:
+      - ankita-p17
+      - sairanjit
+      - tipusinghaw
+  - name: testing-team
+    maintainers:
+      - ajile-in
+      - amitpadmani-awts
+      - kkkulkarni
+    members:
+      - ashwini-aher
+      - sayali-chavan2396
 repositories:
+  - name: .github
+    teams:
+      github-committers: write
+      security-managers: read
+    visibility: public
+  - name: .github-private
+    teams:
+      security-managers: read
+    visibility: private
+  - name: C4GT
+    teams:
+      security-managers: read
+    visibility: public
+  - name: adeya-sdk
+    teams:
+      adeya-sdk-committers: write
+      adeya-sdk-maintainers: maintain
+      security-managers: read
+    visibility: public
+  - name: adeya-wallet
+    teams:
+      adeya-sdk-committers: write
+      adeya-sdk-maintainers: maintain
+      security-managers: read
+    visibility: public
+  - name: aries-akrida
+    teams:
+      aries-admin: admin
+      security-managers: read
+    visibility: public
+  - name: credebl-aries-oca-bundles
+    teams:
+      aries-admin: admin
+      dev-team: write
+      security-managers: read
+    visibility: public
+  - name: credebl.github.io
+    teams:
+      dev-team: write
+      security-managers: read
+    visibility: public
+  - name: credo-controller
+    collaborators:
+      KambleSahil3: write
+    teams:
+      dev-team: write
+      security-managers: read
+    visibility: public
+  - name: digital-wallet-and-agent-overviews-sig
+    teams:
+      security-managers: read
+    visibility: public
+  - name: docs
+    teams:
+      security-managers: read
+    visibility: public
   - name: governance
     teams:
+      security-managers: read
       lf-staff: maintain
+    visibility: public
+  - name: mediator-agent
+    collaborators:
+      KambleSahil3: write
+      sairanjit: maintain
+    teams:
+      dev-team: write
+      security-managers: read
+    visibility: public
+  - name: platform
+    collaborators:
+      RinkalBhojani: maintain
+      ankita-p17: maintain
+    teams:
+      dev-team: write
+      devops-team: write
+      qa-team: write
+      security-managers: read
+    visibility: public
+  - name: schemas
+    teams:
+      dev-team: write
+      security-managers: read
+    visibility: public
+  - name: studio
+    teams:
+      dev-team: write
+      qa-team: write
+      security-managers: read
+    visibility: public
+  - name: terraform-scripts
+    teams:
+      devops-team: write
+      security-managers: read
+    visibility: public
+  - name: trust-registry
+    teams:
+      dev-team: read
+      security-managers: read
+    visibility: public
+  - name: verification-templates
+    collaborators:
+      sairanjit: admin
+    teams:
+      security-managers: read
+    visibility: public
+  - name: verifier-app
+    collaborators:
+      ankita-p17: admin
+      bhavanakarwade: write
+      shitrerohit: write
+      tipusinghaw: write
+    teams:
+      security-managers: read
+    visibility: public
+  - name: webauthn-server
+    teams:
+      dev-team: write
+      security-managers: read
     visibility: public
