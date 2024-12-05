@@ -42,6 +42,9 @@ teams:
       - shitrerohit
       - tipusinghaw
       - tusharbhayani
+  - name: credo-controller-committers
+    maintainers:
+      - KambleSahil3
   - name: devops-team
     maintainers:
       - DeepakNemad
@@ -51,12 +54,23 @@ teams:
   - name: github-committers
     maintainers:
       - niikiitap20
+  - name: mediator-agent-committers
+    maintainers:
+      - KambleSahil3
+  - name: mediator-agent-maintainers
+    maintainers:
+      - sairanjit
   - name: mobile-wallet-team
     maintainers:
       - ajile-in
       - amitpadmani-awts
     members:
       - ankita-p17
+  - name: platform-maintainers
+    maintainers:
+      - ankita-p17
+    members:
+      - RinkalBhojani
   - name: qa-team
     maintainers:
       - ashwini-aher
@@ -80,6 +94,19 @@ teams:
     members:
       - ashwini-aher
       - sayali-chavan2396
+  - name: verifier-app-admins
+    maintainers:
+      - ankita-p17
+    members:
+  - name: verifier-app-committers
+    maintainers:
+      - bhavanakarwade
+    members:
+      - shitrerohit
+      - tipusinghaw
+  - name: verification-templates-admins
+    maintainers:
+      -  sairanjit
 repositories:
   - name: .github
     teams:
@@ -123,9 +150,8 @@ repositories:
       security-managers: read
     visibility: public
   - name: credo-controller
-    collaborators:
-      KambleSahil3: write
     teams:
+      credo-controller-committers: write
       dev-team: write
       security-managers: read
     visibility: public
@@ -139,8 +165,8 @@ repositories:
     visibility: public
   - name: governance
     teams:
-      security-managers: read
       lf-staff: maintain
+      security-managers: read
     visibility: public
   - name: mediator-agent
     collaborators:
@@ -148,15 +174,15 @@ repositories:
       sairanjit: maintain
     teams:
       dev-team: write
+      mediator-agent-committers: write
+      mediator-agent-maintainers: maintain
       security-managers: read
     visibility: public
   - name: platform
-    collaborators:
-      RinkalBhojani: maintain
-      ankita-p17: maintain
     teams:
       dev-team: write
       devops-team: write
+      platform-maintainers: maintain
       qa-team: write
       security-managers: read
     visibility: public
@@ -182,18 +208,14 @@ repositories:
       security-managers: read
     visibility: public
   - name: verification-templates
-    collaborators:
-      sairanjit: admin
     teams:
+      verification-templates-admins: admin
       security-managers: read
     visibility: public
   - name: verifier-app
-    collaborators:
-      ankita-p17: admin
-      bhavanakarwade: write
-      shitrerohit: write
-      tipusinghaw: write
     teams:
+      verifier-app-admins: admin
+      verifier-app-committers: write
       security-managers: read
     visibility: public
   - name: webauthn-server
