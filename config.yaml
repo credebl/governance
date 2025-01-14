@@ -155,10 +155,6 @@ repositories:
       dev-team: write
       security-managers: read
     visibility: public
-  - name: digital-wallet-and-agent-overviews-sig
-    teams:
-      security-managers: read
-    visibility: public
   - name: docs
     teams:
       security-managers: read
@@ -186,11 +182,6 @@ repositories:
       qa-team: write
       security-managers: read
     visibility: public
-  - name: schemas
-    teams:
-      dev-team: write
-      security-managers: read
-    visibility: public
   - name: studio
     teams:
       dev-team: write
@@ -210,12 +201,6 @@ repositories:
   - name: verification-templates
     teams:
       verification-templates-admins: admin
-      security-managers: read
-    visibility: public
-  - name: verifier-app
-    teams:
-      verifier-app-admins: admin
-      verifier-app-committers: write
       security-managers: read
     visibility: public
   - name: webauthn-server
