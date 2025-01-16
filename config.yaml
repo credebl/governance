@@ -110,27 +110,32 @@ teams:
 repositories:
   - name: .github
     teams:
+      admins: admin
       github-committers: write
       security-managers: read
     visibility: public
   - name: .github-private
     teams:
+      admins: admin
       security-managers: read
     visibility: private
   - name: C4GT
     teams:
+      admins: admin
       security-managers: read
     visibility: public
   - name: adeya-sdk
     teams:
       adeya-sdk-committers: write
       adeya-sdk-maintainers: maintain
+      admins: admin
       security-managers: read
     visibility: public
   - name: adeya-wallet
     teams:
       adeya-sdk-committers: write
       adeya-sdk-maintainers: maintain
+      admins: admin
       security-managers: read
     visibility: public
   - name: aries-akrida
@@ -146,29 +151,30 @@ repositories:
     visibility: public
   - name: credebl.github.io
     teams:
+      admins: admin
       dev-team: write
       security-managers: read
     visibility: public
   - name: credo-controller
     teams:
+      admins: admin
       credo-controller-committers: write
       dev-team: write
       security-managers: read
     visibility: public
   - name: docs
     teams:
+      admins: admin
       security-managers: read
     visibility: public
   - name: governance
     teams:
       lf-staff: maintain
-      security-managers: read
+      security-managers: write
     visibility: public
   - name: mediator-agent
-    collaborators:
-      KambleSahil3: write
-      sairanjit: maintain
     teams:
+      admins: admin
       dev-team: write
       mediator-agent-committers: write
       mediator-agent-maintainers: maintain
@@ -176,6 +182,7 @@ repositories:
     visibility: public
   - name: platform
     teams:
+      admins: admin
       dev-team: write
       devops-team: write
       platform-maintainers: maintain
@@ -184,17 +191,20 @@ repositories:
     visibility: public
   - name: studio
     teams:
+      admins: admin
       dev-team: write
       qa-team: write
       security-managers: read
     visibility: public
   - name: terraform-scripts
     teams:
+      admins: admin
       devops-team: write
       security-managers: read
     visibility: public
   - name: trust-registry
     teams:
+      admins: admin
       dev-team: read
       security-managers: read
     visibility: public
@@ -205,6 +215,7 @@ repositories:
     visibility: public
   - name: webauthn-server
     teams:
+      admins: admin
       dev-team: write
       security-managers: read
     visibility: public
