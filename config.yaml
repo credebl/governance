@@ -3,6 +3,7 @@ teams:
     maintainers:
       - ryjones
     members:
+      - jwagantall
       - thelinuxfoundation
   - name: admins
     maintainers:
@@ -84,6 +85,8 @@ teams:
       - kkkulkarni
     members:
       - ankita-p17
+      - jwagantall
+      - ryjones
       - sairanjit
       - tipusinghaw
   - name: testing-team
