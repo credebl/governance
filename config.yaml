@@ -34,7 +34,6 @@ teams:
       - RinkalBhojani
       - ankita-p17
       - bhavanakarwade
-      - niikiitap20
       - pallavighule
       - pranalidhanavade
       - sairanjit
@@ -51,7 +50,7 @@ teams:
       - KambleSahil3
   - name: github-committers
     maintainers:
-      - niikiitap20
+      - ajile-in
   - name: mediator-agent-committers
     maintainers:
       - KambleSahil3
@@ -71,7 +70,8 @@ teams:
       - RinkalBhojani
   - name: qa-team
     maintainers:
-      - ashwini-aher
+      - DeepakNemad
+      - ajile-in
     members:
       - sayali-chavan2396
   - name: security-managers
@@ -91,7 +91,6 @@ teams:
       - amitpadmani-awts
       - kkkulkarni
     members:
-      - ashwini-aher
       - sayali-chavan2396
   - name: verifier-app-admins
     maintainers:
