@@ -8,7 +8,6 @@ teams:
   - name: admins
     maintainers:
       - DeepakNemad
-      - Sheetal-ayanworks
       - ajile-in
       - amitpadmani-awts
       - kkkulkarni
@@ -26,7 +25,6 @@ teams:
       - sairanjit
   - name: dev-team
     maintainers:
-      - Sheetal-ayanworks
       - ajile-in
       - amitpadmani-awts
       - kkkulkarni
@@ -49,7 +47,6 @@ teams:
   - name: devops-team
     maintainers:
       - DeepakNemad
-      - Sheetal-ayanworks
     members:
       - KambleSahil3
   - name: github-committers
@@ -80,7 +77,6 @@ teams:
   - name: security-managers
     maintainers:
       - DeepakNemad
-      - Sheetal-ayanworks
       - ajile-in
       - kkkulkarni
     members:
