@@ -14,10 +14,10 @@ teams:
       - kkkulkarni
     members:
       - ankita-p17
-  - name: adeya-sdk-committers
+  - name: mobile-sdk-committers
     maintainers:
       - tusharbhayani
-  - name: adeya-sdk-maintainers
+  - name: mobile-sdk-maintainers
     maintainers:
       - sairanjit
   - name: aries-admin
@@ -132,17 +132,17 @@ repositories:
       admins: admin
       security-managers: read
     visibility: public
-  - name: adeya-sdk
+  - name: mobile-sdk
     teams:
-      adeya-sdk-committers: write
-      adeya-sdk-maintainers: maintain
+      mobile-sdk-committers: write
+      mobile-sdk-maintainers: maintain
       admins: admin
       security-managers: read
     visibility: public
-  - name: adeya-wallet
+  - name: mobile-wallet
     teams:
-      adeya-sdk-committers: write
-      adeya-sdk-maintainers: maintain
+      mobile-sdk-committers: write
+      mobile-sdk-maintainers: maintain
       admins: admin
       security-managers: read
     visibility: public
