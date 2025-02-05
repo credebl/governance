@@ -8,10 +8,10 @@ teams:
   - name: admins
     maintainers:
       - DeepakNemad
+      - KambleSahil3
       - ajile-in
       - amitpadmani-awts
       - kkkulkarni
-      - KambleSahil3
     members:
       - ankita-p17
   - name: adeya-sdk-committers
@@ -92,6 +92,16 @@ teams:
       - kkkulkarni
     members:
       - sayali-chavan2396
+  - name: tsc
+    maintainers:
+      - ajile-in
+      - amitpadmani-awts
+    members:
+      - RinkalBhojani
+      - ankita-p17
+      - kkkulkarni
+      - prasadgkalamkar
+      - shitrerohit
   - name: verifier-app-admins
     maintainers:
       - ankita-p17
@@ -104,7 +114,7 @@ teams:
       - tipusinghaw
   - name: verification-templates-admins
     maintainers:
-      -  sairanjit
+      - sairanjit
 repositories:
   - name: .github
     teams:
