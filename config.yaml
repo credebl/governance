@@ -97,12 +97,13 @@ teams:
       - ajile-in
       - amitpadmani-awts
     members:
+      - jacquesvb71
+      - siddharthdigiyatra
       - RinkalBhojani
       - ankita-p17
       - kkkulkarni
       - prasadgkalamkar
       - shitrerohit
-      - siddharthdigiyatra
   - name: verifier-app-admins
     maintainers:
       - ankita-p17
