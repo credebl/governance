@@ -28,7 +28,6 @@ teams:
       - ajile-in
       - amitpadmani-awts
       - kkkulkarni
-      - prasadgkalamkar
     members:
       - GHkrishna
       - RinkalBhojani
@@ -102,7 +101,6 @@ teams:
       - RinkalBhojani
       - ankita-p17
       - kkkulkarni
-      - prasadgkalamkar
       - shitrerohit
   - name: verifier-app-admins
     maintainers:
