@@ -117,6 +117,11 @@ teams:
   - name: verification-templates-admins
     maintainers:
       - sairanjit
+  - name: wiki
+    maintainers:
+      - ajile-in
+    members:
+      - RinkalBhojani
 repositories:
   - name: .github
     teams:
