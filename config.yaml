@@ -117,7 +117,7 @@ teams:
   - name: verification-templates-admins
     maintainers:
       - sairanjit
-  - name: wiki
+  - name: wiki-maintainers
     maintainers:
       - ajile-in
     members:
@@ -232,5 +232,11 @@ repositories:
     teams:
       admins: admin
       dev-team: write
+      security-managers: read
+    visibility: public
+  - name: wiki
+    teams:
+      admins: admin
+      wiki-maintainers: write
       security-managers: read
     visibility: public
