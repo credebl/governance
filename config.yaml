@@ -32,7 +32,6 @@ teams:
       - GHkrishna
       - RinkalBhojani
       - ankita-p17
-      - bhavanakarwade
       - pranalidhanavade
       - sairanjit
       - shitrerohit
@@ -109,9 +108,8 @@ teams:
     members:
   - name: verifier-app-committers
     maintainers:
-      - bhavanakarwade
-    members:
       - shitrerohit
+    members:
       - tipusinghaw
   - name: verification-templates-admins
     maintainers:
