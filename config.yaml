@@ -236,3 +236,9 @@ repositories:
       wiki-maintainers: write
       security-managers: read
     visibility: public
+  - name: nats
+    teams:
+      admins: admin
+      devops-team: write
+      security-managers: read
+    visibility: public
