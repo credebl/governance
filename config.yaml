@@ -257,4 +257,3 @@ repositories:
       platform-admin-team: write
       security-managers: read
     visibility: public
-    
