@@ -118,6 +118,15 @@ teams:
       - ajile-in
     members:
       - RinkalBhojani
+  - name: platform-admin-team
+    maintainers:
+      - ajile-in
+      - DeepakNemad
+    members:
+      - RinkalBhojani
+      - shitrerohit
+      - pranalidhanavade
+      - sujitaw
 repositories:
   - name: .github
     teams:
@@ -242,3 +251,10 @@ repositories:
       devops-team: write
       security-managers: read
     visibility: public
+  - name: platform-admin
+    teams:
+      admins: admin
+      platform-admin-team: write
+      security-managers: read
+    visibility: public
+    
