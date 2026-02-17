@@ -66,6 +66,7 @@ teams:
       - ankita-p17
     members:
       - RinkalBhojani
+      - sagarkhole4
   - name: qa-team
     maintainers:
       - DeepakNemad
@@ -127,6 +128,12 @@ teams:
       - shitrerohit
       - pranalidhanavade
       - sujitaw
+  - name: agent-controller-team
+    maintainers:
+      - ajile-in
+      - deepaknemad
+    members:
+      - sagarkhole4
 repositories:
   - name: .github
     teams:
@@ -255,5 +262,11 @@ repositories:
     teams:
       admins: admin
       platform-admin-team: write
+      security-managers: read
+    visibility: public
+  - name: agent-controller
+    teams:
+      admins: admin
+      agent-controller-team: write
       security-managers: read
     visibility: public
