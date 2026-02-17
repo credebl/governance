@@ -261,6 +261,6 @@ repositories:
   - name: agent-controller
     teams:
       admins: admin
-      ev-team: write
+      dev-team: write
       security-managers: read
     visibility: public
