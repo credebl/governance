@@ -128,21 +128,6 @@ teams:
       - shitrerohit
       - pranalidhanavade
       - sujitaw
-  - name: agent-controller-team
-    maintainers:
-      - ajile-in
-      - DeepakNemad
-    members:
-      - sagarkhole4
-      - RinkalBhojani
-      - shitrerohit
-      - pranalidhanavade
-      - sujitaw
-      - ipusingha
-      - ankita-p17
-      - GHkrishna
-      - tusharbhayani
-      - sairanjit
 repositories:
   - name: .github
     teams:
@@ -276,6 +261,6 @@ repositories:
   - name: agent-controller
     teams:
       admins: admin
-      agent-controller-team: write
+      ev-team: write
       security-managers: read
     visibility: public
