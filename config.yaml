@@ -131,7 +131,7 @@ teams:
   - name: agent-controller-team
     maintainers:
       - ajile-in
-      - deepaknemad
+      - DeepakNemad
     members:
       - sagarkhole4
 repositories:
