@@ -129,6 +129,12 @@ teams:
       - shitrerohit
       - pranalidhanavade
       - sujitaw
+  - name: docs-maintainer-team
+    maintainers:
+      - ajile-in
+      - DeepakNemad
+    members:
+      - RinkalBhojani
 repositories:
   - name: .github
     teams:
@@ -188,6 +194,7 @@ repositories:
     teams:
       admins: admin
       security-managers: read
+      docs-maintainer-team: write
     visibility: public
   - name: governance
     teams:
