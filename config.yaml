@@ -37,7 +37,6 @@ teams:
       - tipusinghaw
       - tusharbhayani
       - sujitaw
-      - sagarkhole4
   - name: credo-controller-committers
     maintainers:
       - KambleSahil3
@@ -66,7 +65,6 @@ teams:
       - ankita-p17
     members:
       - RinkalBhojani
-      - sagarkhole4
   - name: qa-team
     maintainers:
       - DeepakNemad
