@@ -31,12 +31,10 @@ teams:
     members:
       - RinkalBhojani
       - ankita-p17
-      - pranalidhanavade
       - sairanjit
       - shitrerohit
       - tipusinghaw
       - tusharbhayani
-      - sujitaw
   - name: credo-controller-committers
     maintainers:
       - KambleSahil3
@@ -124,8 +122,6 @@ teams:
     members:
       - RinkalBhojani
       - shitrerohit
-      - pranalidhanavade
-      - sujitaw
   - name: docs-maintainer-team
     maintainers:
       - ajile-in
