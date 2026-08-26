@@ -18,10 +18,10 @@ teams:
       - tusharbhayani
   - name: mobile-sdk-maintainers
     maintainers:
-      - sairanjit
+      - ajile-in
   - name: aries-admin
     maintainers:
-      - sairanjit
+      - ajile-in
   - name: dev-team
     maintainers:
       - ajile-in
@@ -30,7 +30,6 @@ teams:
     members:
       - RinkalBhojani
       - ankita-p17
-      - sairanjit
       - shitrerohit
       - tipusinghaw
       - tusharbhayani
@@ -50,7 +49,7 @@ teams:
       - KambleSahil3
   - name: mediator-agent-maintainers
     maintainers:
-      - sairanjit
+      - ajile-in
   - name: mobile-wallet-team
     maintainers:
       - ajile-in
@@ -75,7 +74,6 @@ teams:
       - ankita-p17
       - jwagantall
       - ryjones
-      - sairanjit
       - tipusinghaw
   - name: testing-team
     maintainers:
@@ -105,7 +103,7 @@ teams:
       - tipusinghaw
   - name: verification-templates-admins
     maintainers:
-      - sairanjit
+      - ajile-in
   - name: wiki-maintainers
     maintainers:
       - ajile-in
