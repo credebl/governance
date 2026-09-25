@@ -31,7 +31,6 @@ teams:
       - RinkalBhojani
       - ankita-p17
       - shitrerohit
-      - tipusinghaw
       - tusharbhayani
   - name: credo-controller-committers
     maintainers:
@@ -74,7 +73,6 @@ teams:
       - ankita-p17
       - jwagantall
       - ryjones
-      - tipusinghaw
   - name: testing-team
     maintainers:
       - ajile-in
@@ -100,7 +98,7 @@ teams:
     maintainers:
       - shitrerohit
     members:
-      - tipusinghaw
+      []
   - name: verification-templates-admins
     maintainers:
       - ajile-in
