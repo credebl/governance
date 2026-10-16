@@ -7,12 +7,12 @@ teams:
       - thelinuxfoundation
   - name: admins
     maintainers:
-      - awts-devops
       - ajile-in
       - amitpadmani-awts
       - kkkulkarni
     members:
       - ankita-p17
+      - awts-devops
   - name: mobile-sdk-committers
     maintainers:
       - ajile-in
@@ -33,6 +33,8 @@ teams:
       - shitrerohit
   - name: credo-controller-committers
     maintainers:
+      - ajile-in
+    members:
       - awts-devops
   - name: devops-team
     maintainers:
@@ -44,6 +46,8 @@ teams:
       - ajile-in
   - name: mediator-agent-committers
     maintainers:
+      - ajile-in
+    members:
       - awts-devops
   - name: mediator-agent-maintainers
     maintainers:
