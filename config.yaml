@@ -7,7 +7,7 @@ teams:
       - thelinuxfoundation
   - name: admins
     maintainers:
-      - KambleSahil3
+      - awts-devops
       - ajile-in
       - amitpadmani-awts
       - kkkulkarni
@@ -15,7 +15,7 @@ teams:
       - ankita-p17
   - name: mobile-sdk-committers
     maintainers:
-      - tusharbhayani
+      - ajile-in
   - name: mobile-sdk-maintainers
     maintainers:
       - ajile-in
@@ -31,30 +31,23 @@ teams:
       - RinkalBhojani
       - ankita-p17
       - shitrerohit
-      - tusharbhayani
   - name: credo-controller-committers
     maintainers:
-      - KambleSahil3
+      - awts-devops
   - name: devops-team
     maintainers:
       - ajile-in
     members:
-      - KambleSahil3
+      - awts-devops
   - name: github-committers
     maintainers:
       - ajile-in
   - name: mediator-agent-committers
     maintainers:
-      - KambleSahil3
+      - awts-devops
   - name: mediator-agent-maintainers
     maintainers:
       - ajile-in
-  - name: mobile-wallet-team
-    maintainers:
-      - ajile-in
-      - amitpadmani-awts
-    members:
-      - ankita-p17
   - name: platform-maintainers
     maintainers:
       - ankita-p17
